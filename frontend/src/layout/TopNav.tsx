@@ -46,7 +46,7 @@ export function TopNav({ onHamburgerClick }: TopNavProps) {
           onClick={onHamburgerClick}
           className="md:hidden text-aura-brown p-2 -mr-2"
         >
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
             <line x1="2" y1="5.5" x2="20" y2="5.5" />
             <line x1="2" y1="11" x2="20" y2="11" />
             <line x1="2" y1="16.5" x2="20" y2="16.5" />

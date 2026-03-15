@@ -27,7 +27,7 @@ export function MobileDrawer({ isOpen, onClose }: MobileDrawerProps) {
 
       {/* Drawer panel */}
       <div
-        style={{ opacity: isOpen ? 1 : 0 }}
+        inert={!isOpen || undefined}
         className={[
           'fixed top-0 left-0 h-full w-72 z-50 bg-aura-brown flex flex-col pt-16 px-8',
           'transition-transform duration-300 ease-in-out md:hidden',

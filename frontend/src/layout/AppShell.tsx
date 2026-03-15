@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import type { ReactNode } from 'react'
 import { TopNav } from './TopNav'
 import { MobileDrawer } from './MobileDrawer'
 
 interface AppShellProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export function AppShell({ children }: AppShellProps) {
